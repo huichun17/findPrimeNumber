@@ -1,0 +1,24 @@
+body {
+  background: #D1E9E9;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.area1 {
+  height: 15%;
+  width: 50%;
+  background: white;
+  display: flex;
+  justify-content: center;
+}
+
+.area2 {
+  height: 70%;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+}/*# sourceMappingURL=index.css.map */

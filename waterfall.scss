@@ -1,0 +1,33 @@
+.muru{
+    height: 15px;
+    width: 15px;
+    background: gray;
+    border-radius: 10px;
+}
+
+
+.waterfall {
+    width: 100%;
+    margin: 0px auto;
+    column-count: 5;
+    /*欄數*/
+    column-gap: 10px;
+    /*每欄間隔*/
+ }
+
+ .item {
+    // padding: 5px;
+       box-sizing: border-box;
+       margin: 0 auto 5px;
+       break-inside: avoid;
+       /*定義頁面、列或是區域發生中斷時的元素表現方式。 auto->元素中斷、acoid->元素不中斷*/
+       border-radius: 6px;
+       box-shadow: 0 0 6px #000;
+    }
+   img {
+       width: 100%;
+       object-fit: cover;
+       object-position: 50% 50%;
+       border-radius: 6px;
+
+ }

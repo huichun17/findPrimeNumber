@@ -1,0 +1,37 @@
+@charset "UTF-8";
+.muru {
+  height: 15px;
+  width: 15px;
+  background: gray;
+  border-radius: 10px;
+}
+
+.waterfall {
+  width: 100%;
+  margin: 0px auto;
+  -moz-column-count: 5;
+       column-count: 5;
+  /*欄數*/
+  -moz-column-gap: 10px;
+       column-gap: 10px;
+  /*每欄間隔*/
+}
+
+.item {
+  box-sizing: border-box;
+  margin: 0 auto 5px;
+  -moz-column-break-inside: avoid;
+       break-inside: avoid;
+  /*定義頁面、列或是區域發生中斷時的元素表現方式。 auto->元素中斷、acoid->元素不中斷*/
+  border-radius: 6px;
+  box-shadow: 0 0 6px #000;
+}
+
+img {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: 50% 50%;
+     object-position: 50% 50%;
+  border-radius: 6px;
+}/*# sourceMappingURL=waterfall.css.map */

@@ -1,0 +1,26 @@
+body {
+    background: #D1E9E9	;
+    width: 100vw;
+    height: 100vh;
+    display: flex; //置中
+    flex-direction: column; //垂直
+    justify-content: center;//置中
+    align-items: center;//置中
+}
+
+.area1 {
+    height: 15%;
+    width: 50%;
+    background: white;
+    display: flex;
+    justify-content: center;
+   
+}
+
+.area2 {
+    height: 70%;
+    width: 50%;
+   
+    display: flex;
+    justify-content: center;
+}
